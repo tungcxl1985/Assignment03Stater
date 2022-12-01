@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'fontello';
+}
+/* Set the background color of body to tan */
+
+
+
+.banner {
+    padding: 50px;
+    position: relative;
+}
+
+#banner > h1 {
+    position: absolute;
+    top: 23%;
+    left: 41%;  
+    color: #fff;
+}
+
+#banner > span {
+    position: absolute;
+    top: 140px;
+    left: 46%;  
+    color: #fff;
+}
+
+section > .container{
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+
+.container a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-left: 1px solid #f0eeee;
+}
+#nav-bar {
+    text-align: center;
+}
+
+#about > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container > #target, .container > #personal-info {
+    padding: 50px 30px;
+}
+
+
+
+#target > h1, #personal-info > h1  {
+    padding-left: 36px;
+}
+
+#target > p {
+    padding-bottom: 30px;
+    padding-left: 36px;
+    line-height: 25px;
+}
+
+#personal-info > ul {
+    line-height: 25px;
+    list-style-type: none; 
+}
+
+.img-circle {
+    position: absolute;
+    top: 670px;
+    left: 655px;
+    width:200px; 
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.section-title {
+    color: #616060;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+#job-info > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#job-info .grid-box-jobinfo {
+    border: 1px solid #f0eeee;
+    padding: 20px;
+    margin: 0px 20px 20px 0px;
+}
+
+.grid-box-jobinfo-title {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 20px;
+}
+.grid-box-jobinfo-title i {
+    font-size: 3rem;
+    color: #ebe9e9;
+}
+.grid-box-jobinfo-title h1 {
+    padding: 20px 0px 0px 20px;
+    color: #616060;
+}
+.grid-box-jobinfo li {
+    margin-bottom: 20px;
+}
+
+.level-skill-pass {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.level-skill-notpass {
+    background: #ebe9e9;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.grid-box-jobinfo-favorite-icon i {
+    width:60px;
+        height: 60px;
+        padding-top: 15px;
+        border-radius: 50%;
+        border: 1px solid #199cdb;
+        color: #199cdb;
+        margin-left: 10px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 25px;
+}
+#certificate .container {
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #f7f7f7;
+}
+.grid-box-certify {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    border-bottom: 1px solid #d6c08d;
+}
+
+.container-certify-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-box-certify-detail {
+    border-right: 1px solid #d6c08d;
+    margin-right: 20px;
+
+}
+
+
+.grid-box-jobinfo-favorite-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-box-project {
+    padding-left: 110px;
+    padding-right: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blue-radius {
+    background-color: #199cdb;
+    color: #fff;
+    text-align: 20px;
+    padding: 0px 10px 0px 10px;
+    border-radius:  10px;
+}
+
+.grid-box-project-iterms {
+    padding: 10px;
+}
+.grid-box-project-name {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #616060;
+    padding: 20px;
+    border:1px solid #f0eeee;
+}
+.grid-box-project-year {
+    padding: 20px;
+    color: #616060;
+    border:1px solid #f0eeee;
+}
+.grid-box-project-iterms > table {
+    min-height: 500px;
+
+}
+.grid-box-project-iterms > table, tr {
+    border:1px solid #f0eeee;
+    border-collapse:collapse;
+}
+.grid-box-project-iterms td {
+    vertical-align: top;
+    padding: 20px 10px 20px 10px;
+}
+
+#footer ul li {
+    display: inline-block;
+    color: #199cdb;
+    padding: 0px 20px 0px 20px;
+}
+
+#footer .container {
+ margin: 0px auto;
+ background-color: #f7f7f7;
+ padding-left: 550px;
+}
+
+
+
+.color-grey {
+    color: #616060;
+}
+
+.color-blue {
+    color: #199cdb;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+.bg-greybold {
+    background: #f3f1f1;
+}
+
+.no-margin {
+    padding-left: 20px;
+    color: #199cdb;
+}
+
+.text-normal {
+    font-style: normal;
+    line-height: 25px;
+    color: #616060;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: none;
+}

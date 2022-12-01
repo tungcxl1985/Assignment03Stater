@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+/* style tablet or mobile*/
+@media screen and (max-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 10px solid #0000ff;
+        background-color: #0000ff;
+    }
+    .cell-body-row {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px 0px 10px 0px;
+        justify-items:center;
+        align-items:center;
+    }
+    .scopes .cell-body-row {
+    
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-cell-body-row-left {
+        padding: 20px 0px 20px 20px;
+        justify-self: left;
+    }
+  }
+  
+  /* style  laptop  */
+  @media screen and (min-width: 993px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        border: 10px solid #0000ff;
+        background-color: #0000ff;
+    }
+    .timeline {
+        grid-row: 1 / 3;
+        grid-column: 3;
+    }
+    .cell-body-row {
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        padding: 10px 0px 10px 0px;
+        justify-items:center;
+        align-items:center;
+    }
+    .scopes .cell-body-row {
+    
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+
+.goal, .team, .timeline, .scopes, .primary {
+    border: 10px solid #0000ff;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+
+.cell-title {
+    margin: 0px;
+    padding: 0px;
+    color: #0000ff;
+    border-bottom: 1.5px solid #d1dede;
+}
+
+.cell-body {
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.goal .cell-body-row {
+    border-bottom: 1px solid #d1dede;
+}
+.cell-body-row i {
+    font-size: 2rem;
+}
+
+.timeline-circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #616060;
+    border-radius: 50%;
+    padding: 5px;;
+    background-color: #9e88ff;
+    color: #fff;
+    font-size: 1.5rem;
+    justify-self: left;
+}
+.timelinecell-body-row-text {
+    border-bottom: 1px dotted #c3e7ee;
+
+}
+
+
+
+
+
+.color-grey {
+    color: #616060;
+}
+
+.color-blue {
+    color: #199cdb;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+.bg-greybold {
+    background: #f3f1f1;
+}
+
+.no-margin {
+    padding-left: 20px;
+    color: #199cdb;
+}
+
+.text-normal {
+    padding: 0px 0px 0px 20px;
+    font-style: normal;
+    line-height: 25px;
+    color: #616060;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    justify-self:left;
+}
